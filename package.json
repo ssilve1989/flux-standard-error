@@ -1,6 +1,6 @@
 {
   "name": "flux-standard-error",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "flux standard action for representing errors",
   "main": "index.js",
   "scripts": {
