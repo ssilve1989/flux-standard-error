@@ -11,8 +11,8 @@ const createFSAError = (error, type, cause, meta = {}) => {
 		type,
 		payload: error,
 		error  : true,
-		meta   : Object.assign({}, { cause }, { meta })
+		meta   : Object.assign({}, { cause }, meta)
 	}
 }
 
-module.exports = createFSAError;
+module.exports = createFSAError

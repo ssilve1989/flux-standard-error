@@ -4,9 +4,10 @@
   "description": "flux standard action for representing errors",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix ./index.js",
+    "test": "mocha test/index.js",
     "release": "standard-version",
-    "commit": "git cz"
+    "cz": "git cz"
   },
   "author": "Steven Silvestri <steven.m.silvestri@gmail.com> (https://ssilve1989.github.io/)",
   "license": "MIT",
@@ -16,10 +17,12 @@
     }
   },
   "devDependencies": {
+    "chai": "4.1.2",
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.0.0",
     "eslint": "4.6.0",
     "esprima": "4.0.0",
+    "mocha": "3.5.0",
     "standard-version": "4.2.0"
   },
   "repository": "https://github.com/ssilve1989/flux-standard-error",
